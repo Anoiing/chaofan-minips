@@ -1,1 +1,20 @@
+# dependencies
 /node_modules
+
+# editor
+.hbuilderx
+.vscode
+.idea
+
+
+# production
+/unpackage
+
+# misc
+.DS_Store
+.history
+
+# logs
+/*.log
+/npm-debug.log
+/yarn-error.log
