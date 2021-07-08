@@ -1,0 +1,44 @@
+{
+  "name": "chaofan-minips",
+  "version": "1.0.0",
+  "description": "炒饭的uniapp版本，主要适配各小程序端",
+  "main": "main.js",
+  "scripts": {
+    "lint": "eslint --fix '*/**/*.{js,vue,css,scss,json}'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anoiing/chaofan-minips.git"
+  },
+  "author": "Anoiing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anoiing/chaofan-minips/issues"
+  },
+  "homepage": "https://github.com/Anoiing/chaofan-minips#readme",
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*/**/*.{js,vue,css,scss}": [
+      "eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "lodash.head": "^4.0.1",
+    "lodash.isempty": "^4.4.0",
+    "lodash.isequal": "^4.5.0"
+  }
+}

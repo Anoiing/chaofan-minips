@@ -1,0 +1,26 @@
+# dependencies
+/node_modules
+/uview-ui
+/uni_mudules
+/static/images
+/yarn.lock
+/pnpm-lock.yaml
+
+# editor
+.idea
+.vscode
+.hbuilderx
+
+# production
+/build
+/dist
+/unpackage
+
+# misc
+.DS_Store
+.history
+
+# logs
+/*.log
+/npm-debug.log
+/yarn-error.log
